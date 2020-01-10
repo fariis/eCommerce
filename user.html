@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for the 2nd coursework of CSD2550">
+    <meta name="author" content="Antanas Icikovic & Faris Almuteri">
+    
+    <title>CourseWork Two</title>
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/nivo-lightbox.css" rel="stylesheet" />
+    <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Navigation / START -->
+  <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop list<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="store.html">Lights</a></li>
+                      <li><a href="store.html">Heating</a></li>
+                      <li><a href="store.html">Power</a></li>
+                      <li><a href="store.html">Hubs</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search....">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Log In</a>
+                  <ul class="dropdown-menu" style="max-width: 200px;">
+                    <li>
+                      <!-- Log in in the nav -->
+                      <form>
+                      <div class="baravykas">
+                        <div class="form-group row">
+                          <div class="col-sm-11">
+                            <center><h6> Login to a member area</h6></center>
+                            <input type="username" class="form-control" id="inputUsername" placeholder="Username">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-lg-11">
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-sm-11">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">Remember me</label>
+                              <button type="submit" class="btn btn-primary" style="float: right;">Sign in</button>
+                            </div>
+                            <h5><a href="reg.html"> Not a member yet? Register!</a></h5>
+                          </div>
+                        </div>
+                      </div>
+                      </form>
+                    </li>
+                  </ul>
+                  <!-- My cart dropdow in the nav -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> My Cart</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <table class="table table" style="font-size: 10px;">
+                        <thead>
+                          <tr>
+                            <th scope="col" style="width: 8%">#</th>
+                            <th scope="col" style="width: 18%">Product</th>
+                            <th scope="col" colspan="2" style="width: 34%">Description</th>
+                            <th scope="col" style="width: 18%">Qty</th>
+                            <th scope="col" style="width: 12%">Price</th>
+                         </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                           <td><center><img src="img/img_product.jpg" alt="Product" style="width:35px;height:30px;"></center></td>
+                           <td colspan="2">Philips Hue GU10 Smart Bulb</td>
+                           <td data-th="Quantity"><input type="number" class="form-control text-center" value="1"></td>
+                           <td class="align-middle">9.99 &pound</td>
+                          </tr>
+                         <tr>
+                           <th scope="row">2</th>
+                           <td><center><img src="img/img_product.jpg" alt="Product" style="width:35px;height:30px;"></center></td>
+                           <td colspan="2">Philips Hue GU10 Smart Bulb</td>
+                           <td data-th="Quantity"><input type="number" class="form-control text-center" value="1"></td>
+                           <td>9.99 &pound</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">3</th>
+                           <td><center><img src="img/img_product.jpg" alt="Product" style="width:35px;height:30px;"></center></td>
+                           <td colspan="2">Philips Hue GU10 Smart Bulb</td>
+                           <td data-th="Quantity"><input type="number" class="form-control text-center" value="1"></td>
+                           <td>9.99 &pound</td>
+                         </tr>
+                       </tbody>
+                      </table>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <div style="display: inline-block; width: 100%;">
+                      <h7 style="float: left; padding-left: 15px;"> Total : 27.97 &pound </h7>
+                      <button type="button" class="btn btn-default btn-xs" style="margin-right: 10px; float: right;"><a href="checkout.html">Check out</a></button>
+                    </div>
+                  </ul>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- Navigation / END -->
+   
+<!-- Section: User profile / START -->
+  <section id="service" class="home-section color-dark bg-gray">
+    <div class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-offset-2">
+            <div class="user-profile-list-bg">
+              <div class="user-profile-list-box">
+                <center><h1>User profile</h1></center>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2>User details</h2>
+                      <hr>
+                      <div class="input-group input-group-sm" id="fname">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="John" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Doe" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </span>
+                        <input type="password" class="form-control" placeholder="john852" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="+44 3069 990218" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                        </span>
+                        <input type="email" class="form-control" placeholder="john.doe@sample.co.uk" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <h2>Shipping details</h2>
+                      <hr>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        </span>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="10 Downing Street" readonly>
+                        </textarea>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="London" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-road" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Barnet" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon" id="sizing-addon1">
+                          <span class="glyphicon glyphicon-inbox" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="SW1A 2AA" readonly>
+                        <a href="#">Edit</a>
+                      </div>
+                      <button type="button" class="btn btn-default btn-xs"><a href="#"></a>Save changes</button>       
+                    </div>
+                  </div>
+                  <div class="row">
+                    <hr>
+                    <div class="user-profile-list-box-pwchange">
+                    <div class="col-md-12">
+                      <h2> Change password </h2>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h4>Current passsword</h4>
+                            <div class="input-group input-group-sm">
+                              <input type="text" class="form-control" placeholder="Type here..." aria-describedby="sizing-addon3">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <h4>New passsword</h4>
+                          <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Type here..." aria-describedby="sizing-addon3">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <h4>Repeat passsword</h4>
+                          <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Type here..." aria-describedby="sizing-addon3">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-xs"><a href="#"></a>Save password</button> 
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+<!-- Section: User profile / END -->
+
+<!-- Section: Order history /START -->
+<div class="row">
+  <div class="col-md-8 col-sm-offset-2">
+    <div class="user-profile-list-bg">
+      <div class="user-profile-list-box">
+        <div class="user-profile-history">
+          <center><h1>Order history</h1></center>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Order no.</th>
+                <th scope="col">Order date</th>
+                <th scope="col">Bill-to name</th>
+                <th scope="col">Ship-to name</th>
+                <th scope="col">Product amount</th>
+                <th scope="col">Total</th>
+                <th scope="col">Order status</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td scope="row">1</td>
+                  <td>#2124927287</td>
+                  <td>07/02/2018</td>
+                  <td>Joe Doe</td>
+                  <td>Joe Doe</td>
+                  <td>2</td>
+                  <td>59.98</td>
+                  <td class="checking">Pending</td>
+                </tr>
+                <tr>
+                  <td scope="row">1</td>
+                  <td>#2124927288</td>
+                  <td>03/02/2018</td>
+                  <td>Joe Doe</td>
+                  <td>Joe Doe</td>
+                  <td>2</td>
+                  <td>59.98</td>
+                  <td class="checking">Delivered</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Order history /END -->
+
+<!-- Section: Footer / END -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p>Website layout was created for an educational purpose by Middlesex University students.</p>
+        <p> Antanas Icikovic &amp Faris Almuteri - 2<sup>nd</sup> year of Computer Science course</p> 
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <a href="#page-top" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+          <p>Back to top</p>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <div class="text-center">
+          <img src="img/logomdx.png" width="150" height="50">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Section: Footer / END -->
+
+
+
+<!-- JavaScript for boostrap dropdown + search -->
+  <script>
+    $(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+    e.preventDefault();
+    var param = $(this).attr("href").replace("#","");
+    var concept = $(this).text();
+    $('.search-panel span#search_concept').text(concept);
+    $('.input-group #search_param').val(param);
+  });
+});
+  </script>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
